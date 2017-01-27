@@ -17,7 +17,7 @@ class SearchBar extends Component {
 
   onSearchTermChange(term) {
   	this.setState({term});
-  	this.props.videoSearch(this.state.term);
+  	this.props.videoSearch(term);
   }
 }
 
